@@ -1,0 +1,17 @@
+
+button {
+    position: relative;
+    left: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+#RedChecker {
+    position: absolute;
+    top: 185px;
+    left: 75px;
+}
+
+* {
+    overflow-wrap: unset;
+}
