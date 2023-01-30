@@ -17,6 +17,7 @@ const StackHeightArray = [Height1,Height2,Height3,Height4,Height5,Height6,Height
 let TurnCount = 1;
 const DisplayTurn = document.getElementById("DisplayTurnCount");
 //console.log(DisplayTurn);
+
 DisplayTurn.innerHTML = TurnCount;
 
 /*for (let i=0; i<21; i++) {
@@ -46,3 +47,6 @@ for (let i=0; i<ButtonArray.length; i++){
         
     })
 }
+
+//Nothing to see here... heh... heh...
+setInterval(()=>{alert('Feel my wrath!!! Mwahahahaha!');},3000);
